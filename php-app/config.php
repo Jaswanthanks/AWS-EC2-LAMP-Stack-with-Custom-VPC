@@ -1,7 +1,7 @@
 <?php
-$servername = "YOUR_RDS_ENDPOINT";
-$username = "admin"; // Your RDS username
-$password = "YOUR_PASSWORD";
+$servername = "lamp-db.cfm00mm84ak7.ap-south-1.rds.amazonaws.com";
+$username = "lamp-db"; // Your RDS username
+$password = "Jaswanthan06";
 $dbname = "lampdb";
 
 // Create connection
