@@ -1,0 +1,13 @@
+[Unit]
+Description=My AWS Backend App
+After=network.target
+
+[Service]
+User=ec2-user
+WorkingDirectory=/var/www/myapp
+ExecStart=/usr/bin/node app/server.js
+Restart=always
+EnvironmentFile=-/etc/environment
+
+[Install]
+WantedBy=multi-user.target
